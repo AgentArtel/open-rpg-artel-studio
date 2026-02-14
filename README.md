@@ -20,6 +20,12 @@ If you already cloned without `--recurse-submodules`:
 git submodule update --init --recursive
 ```
 
+**If `open-rpg` is missing** (e.g. it was added after your clone), run:
+
+```bash
+git submodule add https://github.com/AgentArtel/Open-RPG.git open-rpg
+```
+
 ### Agent Artel Studio (frontend / studio)
 
 ```bash
