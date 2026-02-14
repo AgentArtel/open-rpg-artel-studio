@@ -3,7 +3,7 @@
 This workspace brings together two AgentArtel projects for review and integration:
 
 - **[agent-artel-studio](./agent-artel-studio)** — Lovable-built app (Vite, TypeScript, React, shadcn-ui, Tailwind). [Agent-Artel-studio](https://github.com/AgentArtel/Agent-Artel-studio).
-- **[open-rpg](./open-rpg)** — RPGJS v4 game with AI NPCs (Moonshot/Kimi). [Open-RPG](https://github.com/AgentArtel/Open-RPG).
+- **[Open-RPG](./Open-RPG)** — RPGJS v4 game with AI NPCs (Moonshot/Kimi). [Open-RPG](https://github.com/AgentArtel/Open-RPG).
 
 ## Setup
 
@@ -20,10 +20,10 @@ If you already cloned without `--recurse-submodules`:
 git submodule update --init --recursive
 ```
 
-**If `open-rpg` is missing** (e.g. it was added after your clone), run:
+**If `Open-RPG` is missing** (e.g. it was added after your clone), run:
 
 ```bash
-git submodule add https://github.com/AgentArtel/Open-RPG.git open-rpg
+git submodule add https://github.com/AgentArtel/Open-RPG.git Open-RPG
 ```
 
 ### Agent Artel Studio (frontend / studio)
@@ -37,9 +37,9 @@ npm run dev
 ### Open-RPG (game + AI agents)
 
 ```bash
-cd open-rpg
+cd Open-RPG
 cp .env.example .env
-# Edit .env and set MOONSHOT_API_KEY (see open-rpg/readme.md)
+# Edit .env and set MOONSHOT_API_KEY (see Open-RPG/readme.md)
 npm install
 npm run dev
 ```
@@ -49,7 +49,7 @@ Open the game at <http://localhost:3000>.
 ## Working together
 
 - **agent-artel-studio**: UI/studio layer (Lovable, React).
-- **open-rpg**: RPGJS v4 game, AI agent system, Supabase.
+- **Open-RPG**: RPGJS v4 game, AI agent system, Supabase.
 
 Integration points (to be defined): shared auth, linking studio to game instances, or embedding the game in the studio.
 

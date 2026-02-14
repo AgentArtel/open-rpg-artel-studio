@@ -1,3 +1,6 @@
 [submodule "agent-artel-studio"]
 	path = agent-artel-studio
 	url = https://github.com/AgentArtel/Agent-Artel-studio.git
+[submodule "Open-RPG"]
+	path = Open-RPG
+	url = https://github.com/AgentArtel/Open-RPG.git
